@@ -1,2 +1,7 @@
 # Reigned-Web
-this is the Website of our Well-known Agency Reigned Web. we work for People and provide them Paid Services with top notch Availability. 
+
+Professional website for **Reigned Web Agency**.
+
+## Run
+
+Open `/tmp/workspace/wantedpebkkk/Reigned-Web/index.html` in any browser.
