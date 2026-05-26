@@ -170,8 +170,11 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>© 2026 Reigned Web Agency. All rights reserved.</p>
+        <p>© <span id="year"></span> Reigned Web Agency. All rights reserved.</p>
       </div>
     </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
