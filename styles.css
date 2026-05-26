@@ -47,14 +47,13 @@ body {
 }
 
 .brand-mark {
-  width: 2.3rem;
-  height: 2.3rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 0.7rem;
-  display: grid;
-  place-items: center;
-  font-weight: 700;
-  color: #211701;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  display: block;
+  object-fit: cover;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
 }
 
 .brand-name {
