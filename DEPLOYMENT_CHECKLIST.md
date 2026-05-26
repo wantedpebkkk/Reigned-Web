@@ -1,6 +1,6 @@
 # Deployment Checklist
 
-Use this checklist to fully put the site online with GitHub Pages and a custom domain.
+Use this checklist to put the site online quickly with GitHub Pages (no custom domain required).
 
 ## 1) Push repository to GitHub
 
@@ -13,31 +13,14 @@ Use this checklist to fully put the site online with GitHub Pages and a custom d
 - [ ] Under source, deploy from the default branch.
 - [ ] Select folder: **`/ (root)`**.
 
-## 3) Configure DNS records at your domain provider
+## 3) Verify direct GitHub Pages URL
 
-For apex/root (`@`):
+- [ ] Open: `https://wantedpebkkk.github.io/Reigned-Web/`
+- [ ] Confirm site loads successfully.
 
-- [ ] `A @ → 185.199.108.153`
-- [ ] `A @ → 185.199.109.153`
-- [ ] `A @ → 185.199.110.153`
-- [ ] `A @ → 185.199.111.153`
+## 4) Optional: add a custom domain later
 
-For `www`:
-
-- [ ] `CNAME www → wantedpebkkk.github.io`
-
-## 4) Configure custom domain in GitHub Pages
-
-- [ ] In GitHub Pages custom domain, set: **`reignedweb.com`**
-- [ ] Confirm the repository `CNAME` file contains `reignedweb.com` (already set).
-
-## 5) Enable HTTPS
-
-- [ ] Wait for DNS propagation.
-- [ ] Enable **Enforce HTTPS** in GitHub Pages once available.
-
-## 6) Verify URLs
-
-- [ ] Temporary URL works: `https://wantedpebkkk.github.io/Reigned-Web/`
-- [ ] Apex domain works: `https://reignedweb.com`
-- [ ] WWW domain works: `https://www.reignedweb.com`
+- [ ] Add a `CNAME` file when you are ready to use a custom domain.
+- [ ] Configure DNS at your domain provider.
+- [ ] Set the custom domain in **Settings → Pages**.
+- [ ] Enable **Enforce HTTPS** once available.
